@@ -4,6 +4,7 @@ import { connectDB } from "../config/db.js";
 import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
+import { log } from "console";
 
 dotenv.config();
 
